@@ -299,12 +299,14 @@ string &operator+(const string& A,const string& B) //cpp
 ### 混合其他语法
 表格单元中的内容可以和其他大多数GFM语法配合使用，如： 
 
+
 #### 使用普通文本的删除线，斜体等效果
 | 名字 | 描述          |
 | ------------- | ----------- |
 | Help      | ~~Display the~~ help window.|
 | Close     | _Closes_ a window     |
 
+</br>
 #### 表格中嵌入图片（链接）
 其实前面介绍图片显示、图片链接的时候为了清晰就是放在在表格中显示的。
 
