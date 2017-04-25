@@ -1,16 +1,11 @@
 README
 ===========================
-该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
-
-****
-###　　　　　　　　　　　　Author:果冻虾仁
-###　　　　　　　　　 E-mail:Jelly.K.Wang@qq.com
-
+该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。</br>
+*****************************************************************
+###  Author:果冻虾仁
+###  E-mail:Jelly.K.Wang@qq.com
 ===========================
-
-
-
-##目录
+## 目录
 * [横线](#横线)
 * [标题](#标题)
 * [文本](#文本)
@@ -53,23 +48,24 @@ ___
 标题
 ------
 
-#一级标题
-##二级标题
-###三级标题
-####四级标题
-#####五级标题
-######六级标题
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
 
 
 文本
 ------
-###普通文本
+### 普通文本
 这是一段普通的文本
-###单行文本
+
+### 单行文本 在一行开头加入1个Tab或者4个空格。
 
     Hello,大家好，我是果冻虾仁。
 
-在一行开头加入1个Tab或者4个空格。
+
 ###文本块
 ####语法1
 在连续几行的文本开头加入1个Tab或者4个空格。
@@ -86,6 +82,7 @@ ___
 你可以在知乎、CSDN、简书搜索【果冻虾仁】找到我
 ```
 该语法也可以实现代码高亮，见[代码高亮](#代码高亮)
+
 ###文字高亮
 文字高亮功能能使行内部分文字高亮，使用一对反引号。
 语法：
@@ -265,6 +262,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ```Java
 public static void main(String[]args){} //Java
 ```
+
 ```c
 int main(int argc, char *argv[]) //C
 ```
@@ -279,7 +277,6 @@ string &operator+(const string& A,const string& B) //cpp
 ```
 表格
 --------
-
 表头1  | 表头2
 --------- | --------
 表格单元  | 表格单元 
@@ -290,26 +287,25 @@ string &operator+(const string& A,const string& B) //cpp
 | 表格单元   | 表格单元   |
 | 表格单元   | 表格单元   |
 
-###对齐
+### 对齐
 表格可以指定对齐方式
-
 | 左对齐 | 居中  | 右对齐 |
 | :------------ |:---------------:| -----:|
 | col 3 is      | some wordy text | $1600 |
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
 
-###混合其他语法
-表格单元中的内容可以和其他大多数GFM语法配合使用，如：  
-####使用普通文本的删除线，斜体等效果
+### 混合其他语法
+表格单元中的内容可以和其他大多数GFM语法配合使用，如： 
 
+#### 使用普通文本的删除线，斜体等效果
 | 名字 | 描述          |
 | ------------- | ----------- |
 | Help      | ~~Display the~~ help window.|
 | Close     | _Closes_ a window     |
-####表格中嵌入图片（链接）
+</br>
+#### 表格中嵌入图片（链接）
 其实前面介绍图片显示、图片链接的时候为了清晰就是放在在表格中显示的。
-
 | 图片 | 描述 |
 | ---- | ---- |
 |![baidu][baidu-logo] | 百度
